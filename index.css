@@ -1,0 +1,149 @@
+* {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.names {
+    margin-left: 18px;
+}
+
+.gauge {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+
+.skill {
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-title {
+    flex: 1;
+}
+
+.bullet {
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    background-color: #ABEBC6;
+}
+
+.filled-bullet {
+    background-color: #82E0AA;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #a9dfbf;
+}
+
+.pp {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #000000;
+    border-radius: 30%;
+    margin: 0 10%;
+}
+
+.img1 {
+    width: 128px;
+    height: 256px;
+    margin-top: 150px;
+    margin-left: 30px;
+    border: 2px solid #000000;
+    border-radius: 25%;
+    display: block;
+}
+
+h1 {
+    font-family: "Peralta";
+}
+
+.job-title {
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+
+.header-text {
+    text-align: end;
+    margin-right: 150px;
+}
+
+.readable-area {
+    display: flex;
+    flex-direction: column;
+    background-color: #dcfbd8;
+    margin: 0 15%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-column {
+    flex: 1;
+    padding: 0 16px 16px 16px;
+    background-color: #dcfbd8;
+}
+
+.section-title {
+    background-color: #84DE5D;
+    border-left: 4px solid #6BB64B;
+    padding: 8px 16px;
+    text-transform: UPPERCASE;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.title-icon {
+    margin-right: 8px;
+}
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .header-text {
+        text-align: center;
+        margin-left: 150px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .img1 {
+        display: none;
+    }
+}
+
+.references {
+    text-align: center;
+}
